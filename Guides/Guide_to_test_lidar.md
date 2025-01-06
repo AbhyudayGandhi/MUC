@@ -15,7 +15,7 @@ sudo chmod 666 /dev/ttyUSB0
 
 ### Navigate into the copied folder lidar-test
 ```
-cd $path/lidar-test
+cd ${path}/lidar-test
 ```
 
 ### Build the package

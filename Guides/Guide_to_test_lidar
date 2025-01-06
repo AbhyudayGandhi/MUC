@@ -1,0 +1,22 @@
+# Guide to test Lidar
+
+#### Note - Clone this repo and copy the lidar-test folder onto your laptop workspace and connect the lidar to your laptop
+
+### Check if you can detect ttyUSB0 (This is what lidar is mostly connected to)
+```ls /dev/tty*```
+
+
+### Giving permisions for lidar to use serial communication through that port
+```sudo chmod 666 /dev/ttyUSB0```
+
+### Navigate into the copied folder lidar-test
+```cd $path/lidar-test```
+
+### Build the package
+```colcon build```
+
+###Source the build
+```source install/setup.bash```
+
+###Run the launch file to check in Rviz
+```ros2 launch rplidar_ros view_rplidar_a2m12_launch.py```

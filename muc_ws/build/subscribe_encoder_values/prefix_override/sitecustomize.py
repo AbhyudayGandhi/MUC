@@ -1,3 +1,4 @@
 import sys
-sys.real_prefix = sys.prefix
-sys.prefix = sys.exec_prefix = '/home/anirudh/muc_ws/install/subscribe_encoder_values'
+if sys.prefix == '/usr':
+    sys.real_prefix = sys.prefix
+    sys.prefix = sys.exec_prefix = '/home/gnanasai/MUC-Hardware-/muc_ws/install/subscribe_encoder_values'

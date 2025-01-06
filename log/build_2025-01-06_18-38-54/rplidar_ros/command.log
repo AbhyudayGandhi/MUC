@@ -1,0 +1,6 @@
+Invoking command in '/home/gnanasai/MUC-Hardware-/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gnanasai/MUC-Hardware-/lidar_test/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/gnanasai/MUC-Hardware-/install/rplidar_ros
+Invoked command in '/home/gnanasai/MUC-Hardware-/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gnanasai/MUC-Hardware-/lidar_test/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/gnanasai/MUC-Hardware-/install/rplidar_ros
+Invoking command in '/home/gnanasai/MUC-Hardware-/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gnanasai/MUC-Hardware-/build/rplidar_ros -- -j16 -l16
+Invoked command in '/home/gnanasai/MUC-Hardware-/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gnanasai/MUC-Hardware-/build/rplidar_ros -- -j16 -l16
+Invoking command in '/home/gnanasai/MUC-Hardware-/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gnanasai/MUC-Hardware-/build/rplidar_ros
+Invoked command in '/home/gnanasai/MUC-Hardware-/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gnanasai/MUC-Hardware-/build/rplidar_ros

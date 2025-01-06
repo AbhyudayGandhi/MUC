@@ -1,0 +1,37 @@
+[0.791s] Invoking command in '/home/gnanasai/MUC-Hardware-/muc_ws_rpi/src/motor_control': PYTHONPATH=/home/gnanasai/MUC-Hardware-/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gnanasai/MUC-Hardware-/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/motor_control build --build-base /home/gnanasai/MUC-Hardware-/build/motor_control/build install --record /home/gnanasai/MUC-Hardware-/build/motor_control/install.log --single-version-externally-managed install_data
+[0.944s] running egg_info
+[0.944s] creating ../../../build/motor_control/motor_control.egg-info
+[0.944s] writing ../../../build/motor_control/motor_control.egg-info/PKG-INFO
+[0.944s] writing dependency_links to ../../../build/motor_control/motor_control.egg-info/dependency_links.txt
+[0.944s] writing entry points to ../../../build/motor_control/motor_control.egg-info/entry_points.txt
+[0.944s] writing requirements to ../../../build/motor_control/motor_control.egg-info/requires.txt
+[0.944s] writing top-level names to ../../../build/motor_control/motor_control.egg-info/top_level.txt
+[0.945s] writing manifest file '../../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[0.946s] reading manifest file '../../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[0.947s] writing manifest file '../../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[0.947s] running build
+[0.947s] running build_py
+[0.947s] creating /home/gnanasai/MUC-Hardware-/build/motor_control/build
+[0.948s] creating /home/gnanasai/MUC-Hardware-/build/motor_control/build/lib
+[0.948s] creating /home/gnanasai/MUC-Hardware-/build/motor_control/build/lib/motor_control
+[0.948s] copying motor_control/__init__.py -> /home/gnanasai/MUC-Hardware-/build/motor_control/build/lib/motor_control
+[0.948s] copying motor_control/motor_control_node.py -> /home/gnanasai/MUC-Hardware-/build/motor_control/build/lib/motor_control
+[0.948s] running install
+[0.948s] running install_lib
+[0.948s] creating /home/gnanasai/MUC-Hardware-/install/motor_control/lib/python3.10/site-packages/motor_control
+[0.948s] copying /home/gnanasai/MUC-Hardware-/build/motor_control/build/lib/motor_control/__init__.py -> /home/gnanasai/MUC-Hardware-/install/motor_control/lib/python3.10/site-packages/motor_control
+[0.948s] copying /home/gnanasai/MUC-Hardware-/build/motor_control/build/lib/motor_control/motor_control_node.py -> /home/gnanasai/MUC-Hardware-/install/motor_control/lib/python3.10/site-packages/motor_control
+[0.949s] byte-compiling /home/gnanasai/MUC-Hardware-/install/motor_control/lib/python3.10/site-packages/motor_control/__init__.py to __init__.cpython-310.pyc
+[0.949s] byte-compiling /home/gnanasai/MUC-Hardware-/install/motor_control/lib/python3.10/site-packages/motor_control/motor_control_node.py to motor_control_node.cpython-310.pyc
+[0.949s] running install_data
+[0.949s] creating /home/gnanasai/MUC-Hardware-/install/motor_control/share/ament_index
+[0.949s] creating /home/gnanasai/MUC-Hardware-/install/motor_control/share/ament_index/resource_index
+[0.949s] creating /home/gnanasai/MUC-Hardware-/install/motor_control/share/ament_index/resource_index/packages
+[0.949s] copying resource/motor_control -> /home/gnanasai/MUC-Hardware-/install/motor_control/share/ament_index/resource_index/packages
+[0.949s] copying package.xml -> /home/gnanasai/MUC-Hardware-/install/motor_control/share/motor_control
+[0.949s] running install_egg_info
+[0.949s] Copying ../../../build/motor_control/motor_control.egg-info to /home/gnanasai/MUC-Hardware-/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info
+[0.949s] running install_scripts
+[0.963s] Installing motor_control_node script to /home/gnanasai/MUC-Hardware-/install/motor_control/lib/motor_control
+[0.963s] writing list of installed files to '/home/gnanasai/MUC-Hardware-/build/motor_control/install.log'
+[0.995s] Invoked command in '/home/gnanasai/MUC-Hardware-/muc_ws_rpi/src/motor_control' returned '0': PYTHONPATH=/home/gnanasai/MUC-Hardware-/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gnanasai/MUC-Hardware-/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/motor_control build --build-base /home/gnanasai/MUC-Hardware-/build/motor_control/build install --record /home/gnanasai/MUC-Hardware-/build/motor_control/install.log --single-version-externally-managed install_data

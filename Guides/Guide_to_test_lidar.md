@@ -1,6 +1,6 @@
 # Guide to test Lidar
 
-#### Note - Clone this repo and copy the lidar-test folder onto your laptop workspace and connect the lidar to your laptop
+#### Note - Clone this repo and copy the lidar_test folder onto your laptop workspace and connect the lidar to your laptop
 
 ### Check if you can detect ttyUSB0 (This is what lidar is mostly connected to)
 ```
@@ -15,7 +15,7 @@ sudo chmod 666 /dev/ttyUSB0
 
 ### Navigate into the copied folder lidar-test
 ```
-cd ${path}/lidar-test
+cd ${path}/lidar_test
 ```
 
 ### Build the package

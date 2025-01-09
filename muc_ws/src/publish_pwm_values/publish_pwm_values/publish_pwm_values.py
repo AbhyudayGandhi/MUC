@@ -26,7 +26,7 @@ class PublishPWMValues(Node):
         angular_z = msg.angular.z
 
         # Define maximum PWM value
-        max_pwm_value = 50  # Adjust this value based on your motor driver
+        max_pwm_value = 8  # Adjust this value based on your motor driver
 
         # Calculate the PWM values
         left_speed = linear_x + angular_z  # For motors 1 and 3

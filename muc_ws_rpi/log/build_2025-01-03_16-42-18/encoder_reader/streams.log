@@ -1,0 +1,21 @@
+[3.934s] Invoking command in '/home/muc/MUC-Hardware-/muc_ws_rpi/src/encoder_reader': PYTHONPATH=/home/muc/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muc/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/encoder_reader build --build-base /home/muc/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/build install --record /home/muc/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/install.log --single-version-externally-managed install_data
+[5.082s] running egg_info
+[5.085s] writing ../../build/encoder_reader/encoder_reader.egg-info/PKG-INFO
+[5.090s] writing dependency_links to ../../build/encoder_reader/encoder_reader.egg-info/dependency_links.txt
+[5.091s] writing entry points to ../../build/encoder_reader/encoder_reader.egg-info/entry_points.txt
+[5.092s] writing requirements to ../../build/encoder_reader/encoder_reader.egg-info/requires.txt
+[5.093s] writing top-level names to ../../build/encoder_reader/encoder_reader.egg-info/top_level.txt
+[5.103s] reading manifest file '../../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'
+[5.108s] writing manifest file '../../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'
+[5.109s] running build
+[5.109s] running build_py
+[5.112s] running install
+[5.114s] running install_lib
+[5.122s] running install_data
+[5.125s] running install_egg_info
+[5.133s] removing '/home/muc/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages/encoder_reader-0.0.0-py3.10.egg-info' (and everything under it)
+[5.135s] Copying ../../build/encoder_reader/encoder_reader.egg-info to /home/muc/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages/encoder_reader-0.0.0-py3.10.egg-info
+[5.144s] running install_scripts
+[5.231s] Installing encoder_reader_node script to /home/muc/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/encoder_reader
+[5.236s] writing list of installed files to '/home/muc/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/install.log'
+[5.405s] Invoked command in '/home/muc/MUC-Hardware-/muc_ws_rpi/src/encoder_reader' returned '0': PYTHONPATH=/home/muc/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muc/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/encoder_reader build --build-base /home/muc/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/build install --record /home/muc/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/install.log --single-version-externally-managed install_data

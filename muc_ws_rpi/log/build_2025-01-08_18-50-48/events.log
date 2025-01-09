@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.001540] (encoder_reader) JobQueued: {'identifier': 'encoder_reader', 'dependencies': OrderedDict()}
+[0.002249] (motor_control) JobQueued: {'identifier': 'motor_control', 'dependencies': OrderedDict()}
+[0.002691] (encoder_reader) JobStarted: {'identifier': 'encoder_reader'}
+[0.039137] (motor_control) JobStarted: {'identifier': 'motor_control'}
+[0.099002] (-) TimerEvent: {}
+[0.199661] (-) TimerEvent: {}
+[0.300403] (-) TimerEvent: {}
+[0.401104] (-) TimerEvent: {}
+[0.501731] (-) TimerEvent: {}
+[0.602327] (-) TimerEvent: {}
+[0.702919] (-) TimerEvent: {}
+[0.803496] (-) TimerEvent: {}
+[0.904092] (-) TimerEvent: {}
+[1.004760] (-) TimerEvent: {}
+[1.105509] (-) TimerEvent: {}
+[1.206581] (-) TimerEvent: {}
+[1.307413] (-) TimerEvent: {}
+[1.408072] (-) TimerEvent: {}
+[1.508772] (-) TimerEvent: {}
+[1.609443] (-) TimerEvent: {}
+[1.710149] (-) TimerEvent: {}
+[1.810790] (-) TimerEvent: {}
+[1.911409] (-) TimerEvent: {}
+[2.012021] (-) TimerEvent: {}
+[2.112787] (-) TimerEvent: {}
+[2.213720] (-) TimerEvent: {}
+[2.314322] (-) TimerEvent: {}
+[2.414943] (-) TimerEvent: {}
+[2.515638] (-) TimerEvent: {}
+[2.616339] (-) TimerEvent: {}
+[2.717047] (-) TimerEvent: {}
+[2.817801] (-) TimerEvent: {}
+[2.918456] (-) TimerEvent: {}
+[3.019234] (-) TimerEvent: {}
+[3.121185] (-) TimerEvent: {}
+[3.222830] (-) TimerEvent: {}
+[3.324347] (-) TimerEvent: {}
+[3.426012] (-) TimerEvent: {}
+[3.527594] (-) TimerEvent: {}
+[3.629798] (-) TimerEvent: {}
+[3.731685] (-) TimerEvent: {}
+[3.834322] (-) TimerEvent: {}
+[3.938773] (-) TimerEvent: {}
+[3.971552] (encoder_reader) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/encoder_reader', 'build', '--build-base', '/home/muc/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/build', 'install', '--record', '/home/muc/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/muc/MUC-Hardware-/muc_ws_rpi/src/encoder_reader', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'LANGUAGE': 'en_IN:en', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/muc/MUC-Hardware-/muc_ws_rpi/src', 'ROS_PYTHON_VERSION': '3', 'DEBUGINFOD_URLS': '', 'COLCON_PREFIX_PATH': '/home/muc/MUC-Hardware-/muc_ws_rpi/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/bin/bash', 'AMENT_PREFIX_PATH': '/home/muc/MUC-Hardware-/muc_ws_rpi/install/motor_control:/home/muc/MUC-Hardware-/muc_ws_rpi/install/encoder_reader:/opt/ros/humble', 'SHELL': '/bin/bash', 'SUDO_USER': 'muc', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/muc/MUC-Hardware-/muc_ws_rpi/build/encoder_reader', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/muc/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muc/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages:/home/muc/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages:/home/muc/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.989326] (motor_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_control', 'build', '--build-base', '/home/muc/MUC-Hardware-/muc_ws_rpi/build/motor_control/build', 'install', '--record', '/home/muc/MUC-Hardware-/muc_ws_rpi/build/motor_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/muc/MUC-Hardware-/muc_ws_rpi/src/motor_control', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'LANGUAGE': 'en_IN:en', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/muc/MUC-Hardware-/muc_ws_rpi/src', 'ROS_PYTHON_VERSION': '3', 'DEBUGINFOD_URLS': '', 'COLCON_PREFIX_PATH': '/home/muc/MUC-Hardware-/muc_ws_rpi/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/bin/bash', 'AMENT_PREFIX_PATH': '/home/muc/MUC-Hardware-/muc_ws_rpi/install/motor_control:/home/muc/MUC-Hardware-/muc_ws_rpi/install/encoder_reader:/opt/ros/humble', 'SHELL': '/bin/bash', 'SUDO_USER': 'muc', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/muc/MUC-Hardware-/muc_ws_rpi/build/motor_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/muc/MUC-Hardware-/muc_ws_rpi/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muc/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages:/home/muc/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages:/home/muc/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.039009] (-) TimerEvent: {}
+[4.140105] (-) TimerEvent: {}
+[4.240774] (-) TimerEvent: {}
+[4.341491] (-) TimerEvent: {}
+[4.442203] (-) TimerEvent: {}
+[4.542818] (-) TimerEvent: {}
+[4.643435] (-) TimerEvent: {}
+[4.744153] (-) TimerEvent: {}
+[4.844814] (-) TimerEvent: {}
+[4.945417] (-) TimerEvent: {}
+[5.046093] (-) TimerEvent: {}
+[5.146768] (-) TimerEvent: {}
+[5.152737] (encoder_reader) StdoutLine: {'line': b'running egg_info\n'}
+[5.156031] (encoder_reader) StdoutLine: {'line': b'writing ../../build/encoder_reader/encoder_reader.egg-info/PKG-INFO\n'}
+[5.157206] (encoder_reader) StdoutLine: {'line': b'writing dependency_links to ../../build/encoder_reader/encoder_reader.egg-info/dependency_links.txt\n'}
+[5.158995] (encoder_reader) StdoutLine: {'line': b'writing entry points to ../../build/encoder_reader/encoder_reader.egg-info/entry_points.txt\n'}
+[5.159867] (encoder_reader) StdoutLine: {'line': b'writing requirements to ../../build/encoder_reader/encoder_reader.egg-info/requires.txt\n'}
+[5.160547] (encoder_reader) StdoutLine: {'line': b'writing top-level names to ../../build/encoder_reader/encoder_reader.egg-info/top_level.txt\n'}
+[5.169162] (encoder_reader) StdoutLine: {'line': b"reading manifest file '../../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'\n"}
+[5.173376] (encoder_reader) StdoutLine: {'line': b"writing manifest file '../../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'\n"}
+[5.174113] (encoder_reader) StdoutLine: {'line': b'running build\n'}
+[5.174685] (encoder_reader) StdoutLine: {'line': b'running build_py\n'}
+[5.175400] (motor_control) StdoutLine: {'line': b'running egg_info\n'}
+[5.175944] (encoder_reader) StdoutLine: {'line': b'copying encoder_reader/encoder_reader_node.py -> /home/muc/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/build/lib/encoder_reader\n'}
+[5.176805] (encoder_reader) StdoutLine: {'line': b'running install\n'}
+[5.178017] (motor_control) StdoutLine: {'line': b'writing ../../build/motor_control/motor_control.egg-info/PKG-INFO\n'}
+[5.178801] (encoder_reader) StdoutLine: {'line': b'running install_lib\n'}
+[5.179445] (motor_control) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_control/motor_control.egg-info/dependency_links.txt\n'}
+[5.181243] (motor_control) StdoutLine: {'line': b'writing entry points to ../../build/motor_control/motor_control.egg-info/entry_points.txt\n'}
+[5.182106] (motor_control) StdoutLine: {'line': b'writing requirements to ../../build/motor_control/motor_control.egg-info/requires.txt\n'}
+[5.183081] (encoder_reader) StdoutLine: {'line': b'copying /home/muc/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/build/lib/encoder_reader/encoder_reader_node.py -> /home/muc/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages/encoder_reader\n'}
+[5.183527] (motor_control) StdoutLine: {'line': b'writing top-level names to ../../build/motor_control/motor_control.egg-info/top_level.txt\n'}
+[5.185579] (encoder_reader) StdoutLine: {'line': b'byte-compiling /home/muc/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages/encoder_reader/encoder_reader_node.py to encoder_reader_node.cpython-310.pyc\n'}
+[5.190371] (encoder_reader) StdoutLine: {'line': b'running install_data\n'}
+[5.191140] (encoder_reader) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.191760] (motor_control) StdoutLine: {'line': b"reading manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'\n"}
+[5.195768] (motor_control) StdoutLine: {'line': b"writing manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'\n"}
+[5.196713] (motor_control) StdoutLine: {'line': b'running build\n'}
+[5.197421] (motor_control) StdoutLine: {'line': b'running build_py\n'}
+[5.198540] (motor_control) StdoutLine: {'line': b'running install\n'}
+[5.199362] (encoder_reader) StdoutLine: {'line': b"removing '/home/muc/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages/encoder_reader-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.200050] (motor_control) StdoutLine: {'line': b'running install_lib\n'}
+[5.201164] (encoder_reader) StdoutLine: {'line': b'Copying ../../build/encoder_reader/encoder_reader.egg-info to /home/muc/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages/encoder_reader-0.0.0-py3.10.egg-info\n'}
+[5.205891] (motor_control) StdoutLine: {'line': b'running install_data\n'}
+[5.206594] (motor_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.207749] (encoder_reader) StdoutLine: {'line': b'running install_scripts\n'}
+[5.214839] (motor_control) StdoutLine: {'line': b"removing '/home/muc/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.216658] (motor_control) StdoutLine: {'line': b'Copying ../../build/motor_control/motor_control.egg-info to /home/muc/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info\n'}
+[5.223386] (motor_control) StdoutLine: {'line': b'running install_scripts\n'}
+[5.246933] (-) TimerEvent: {}
+[5.297591] (encoder_reader) StdoutLine: {'line': b'Installing encoder_reader_node script to /home/muc/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/encoder_reader\n'}
+[5.299521] (encoder_reader) StdoutLine: {'line': b"writing list of installed files to '/home/muc/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/install.log'\n"}
+[5.320115] (motor_control) StdoutLine: {'line': b'Installing motor_control_node script to /home/muc/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/motor_control\n'}
+[5.323084] (motor_control) StdoutLine: {'line': b"writing list of installed files to '/home/muc/MUC-Hardware-/muc_ws_rpi/build/motor_control/install.log'\n"}
+[5.347304] (-) TimerEvent: {}
+[5.451191] (-) TimerEvent: {}
+[5.470746] (encoder_reader) CommandEnded: {'returncode': 0}
+[5.522563] (encoder_reader) JobEnded: {'identifier': 'encoder_reader', 'rc': 0}
+[5.527605] (motor_control) CommandEnded: {'returncode': 0}
+[5.551975] (-) TimerEvent: {}
+[5.558962] (motor_control) JobEnded: {'identifier': 'motor_control', 'rc': 0}
+[5.561676] (-) EventReactorShutdown: {}

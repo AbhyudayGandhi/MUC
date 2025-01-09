@@ -6,14 +6,14 @@ from std_msgs.msg import Int32
 outcome = [0, -1, 1, 0, -1, 0, 0, 1, 1, 0, 0, -1, 0, -1, 1, 0]
 
 # Define GPIO pins for encoders
-Encoder1_output_A = 16
-Encoder1_output_B = 20
-Encoder2_output_A = 19
-Encoder2_output_B = 26
+Encoder1_output_A = 9
+Encoder1_output_B = 11
+Encoder2_output_A = 20
+Encoder2_output_B = 16
 Encoder3_output_A = 1
 Encoder3_output_B = 12
-Encoder4_output_A = 2
-Encoder4_output_B = 10
+Encoder4_output_A = 10
+Encoder4_output_B = 4
 
 Count_pulses1 = 0
 Count_pulses2 = 0

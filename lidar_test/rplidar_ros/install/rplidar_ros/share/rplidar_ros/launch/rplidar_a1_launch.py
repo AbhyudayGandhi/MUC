@@ -1,1 +1,0 @@
-/home/proton/lidar/rplidar_ros/launch/rplidar_a1_launch.py

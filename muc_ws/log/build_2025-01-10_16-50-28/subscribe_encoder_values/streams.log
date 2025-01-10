@@ -1,0 +1,21 @@
+[5.538s] Invoking command in '/home/muc/MUC-Hardware/muc_ws/src/subscribe_encoder_values': PYTHONPATH=/home/muc/MUC-Hardware/muc_ws/build/subscribe_encoder_values/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muc/MUC-Hardware/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/subscribe_encoder_values build --build-base /home/muc/MUC-Hardware/muc_ws/build/subscribe_encoder_values/build install --record /home/muc/MUC-Hardware/muc_ws/build/subscribe_encoder_values/install.log --single-version-externally-managed install_data
+[6.919s] running egg_info
+[6.922s] writing ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/PKG-INFO
+[6.924s] writing dependency_links to ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/dependency_links.txt
+[6.926s] writing entry points to ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/entry_points.txt
+[6.926s] writing requirements to ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/requires.txt
+[6.927s] writing top-level names to ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/top_level.txt
+[6.937s] reading manifest file '../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/SOURCES.txt'
+[6.942s] writing manifest file '../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/SOURCES.txt'
+[6.943s] running build
+[6.944s] running build_py
+[6.945s] running install
+[6.946s] running install_lib
+[6.955s] running install_data
+[6.956s] running install_egg_info
+[6.964s] removing '/home/muc/MUC-Hardware/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages/subscribe_encoder_values-0.0.0-py3.10.egg-info' (and everything under it)
+[6.966s] Copying ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info to /home/muc/MUC-Hardware/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages/subscribe_encoder_values-0.0.0-py3.10.egg-info
+[6.975s] running install_scripts
+[7.078s] Installing subscribe_encoder_values script to /home/muc/MUC-Hardware/muc_ws/install/subscribe_encoder_values/lib/subscribe_encoder_values
+[7.081s] writing list of installed files to '/home/muc/MUC-Hardware/muc_ws/build/subscribe_encoder_values/install.log'
+[7.326s] Invoked command in '/home/muc/MUC-Hardware/muc_ws/src/subscribe_encoder_values' returned '0': PYTHONPATH=/home/muc/MUC-Hardware/muc_ws/build/subscribe_encoder_values/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muc/MUC-Hardware/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/subscribe_encoder_values build --build-base /home/muc/MUC-Hardware/muc_ws/build/subscribe_encoder_values/build install --record /home/muc/MUC-Hardware/muc_ws/build/subscribe_encoder_values/install.log --single-version-externally-managed install_data

@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.001621] (odom_publisher) JobQueued: {'identifier': 'odom_publisher', 'dependencies': OrderedDict()}
+[0.002199] (publish_pwm_values) JobQueued: {'identifier': 'publish_pwm_values', 'dependencies': OrderedDict()}
+[0.002294] (subscribe_encoder_values) JobQueued: {'identifier': 'subscribe_encoder_values', 'dependencies': OrderedDict()}
+[0.002375] (odom_publisher) JobStarted: {'identifier': 'odom_publisher'}
+[0.040011] (publish_pwm_values) JobStarted: {'identifier': 'publish_pwm_values'}
+[0.069071] (subscribe_encoder_values) JobStarted: {'identifier': 'subscribe_encoder_values'}
+[0.099514] (-) TimerEvent: {}
+[0.202995] (-) TimerEvent: {}
+[0.303769] (-) TimerEvent: {}
+[0.404421] (-) TimerEvent: {}
+[0.505040] (-) TimerEvent: {}
+[0.605656] (-) TimerEvent: {}
+[0.706292] (-) TimerEvent: {}
+[0.806925] (-) TimerEvent: {}
+[0.907585] (-) TimerEvent: {}
+[1.008251] (-) TimerEvent: {}
+[1.108896] (-) TimerEvent: {}
+[1.209660] (-) TimerEvent: {}
+[1.310921] (-) TimerEvent: {}
+[1.411601] (-) TimerEvent: {}
+[1.512421] (-) TimerEvent: {}
+[1.613158] (-) TimerEvent: {}
+[1.713853] (-) TimerEvent: {}
+[1.814507] (-) TimerEvent: {}
+[1.915138] (-) TimerEvent: {}
+[2.015782] (-) TimerEvent: {}
+[2.116457] (-) TimerEvent: {}
+[2.217107] (-) TimerEvent: {}
+[2.317859] (-) TimerEvent: {}
+[2.419255] (-) TimerEvent: {}
+[2.520935] (-) TimerEvent: {}
+[2.621588] (-) TimerEvent: {}
+[2.722295] (-) TimerEvent: {}
+[2.822964] (-) TimerEvent: {}
+[2.923613] (-) TimerEvent: {}
+[3.024286] (-) TimerEvent: {}
+[3.124970] (-) TimerEvent: {}
+[3.225602] (-) TimerEvent: {}
+[3.326272] (-) TimerEvent: {}
+[3.426937] (-) TimerEvent: {}
+[3.527690] (-) TimerEvent: {}
+[3.628728] (-) TimerEvent: {}
+[3.729552] (-) TimerEvent: {}
+[3.830329] (-) TimerEvent: {}
+[3.931182] (-) TimerEvent: {}
+[4.032219] (-) TimerEvent: {}
+[4.132994] (-) TimerEvent: {}
+[4.233734] (-) TimerEvent: {}
+[4.334521] (-) TimerEvent: {}
+[4.435338] (-) TimerEvent: {}
+[4.536190] (-) TimerEvent: {}
+[4.636904] (-) TimerEvent: {}
+[4.737653] (-) TimerEvent: {}
+[4.838397] (-) TimerEvent: {}
+[4.939213] (-) TimerEvent: {}
+[5.040964] (-) TimerEvent: {}
+[5.143054] (-) TimerEvent: {}
+[5.243965] (-) TimerEvent: {}
+[5.347753] (-) TimerEvent: {}
+[5.466866] (-) TimerEvent: {}
+[5.551685] (publish_pwm_values) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/publish_pwm_values', 'build', '--build-base', '/home/muc/MUC-Hardware/muc_ws/build/publish_pwm_values/build', 'install', '--record', '/home/muc/MUC-Hardware/muc_ws/build/publish_pwm_values/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/muc/MUC-Hardware/muc_ws/src/publish_pwm_values', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'LANGUAGE': 'en_IN:en', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/muc/MUC-Hardware/muc_ws/src', 'ROS_PYTHON_VERSION': '3', 'DEBUGINFOD_URLS': '', 'COLCON_PREFIX_PATH': '/home/muc/MUC-Hardware/muc_ws/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/bin/bash', 'AMENT_PREFIX_PATH': '/home/muc/MUC-Hardware/muc_ws/install/odom_publisher:/home/muc/MUC-Hardware/muc_ws/install/subscribe_encoder_values:/home/muc/MUC-Hardware/muc_ws/install/publish_pwm_values:/opt/ros/humble', 'SHELL': '/bin/bash', 'SUDO_USER': 'muc', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/muc/MUC-Hardware/muc_ws/build/publish_pwm_values', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/muc/MUC-Hardware/muc_ws/build/publish_pwm_values/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muc/MUC-Hardware/muc_ws/install/publish_pwm_values/lib/python3.10/site-packages:/home/muc/MUC-Hardware/muc_ws/install/odom_publisher/lib/python3.10/site-packages:/home/muc/MUC-Hardware/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages:/home/muc/MUC-Hardware/muc_ws/install/publish_pwm_values/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[5.577006] (-) TimerEvent: {}
+[5.630617] (odom_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/odom_publisher', 'build', '--build-base', '/home/muc/MUC-Hardware/muc_ws/build/odom_publisher/build', 'install', '--record', '/home/muc/MUC-Hardware/muc_ws/build/odom_publisher/install.log', '--single-version-externally-managed'], 'cwd': '/home/muc/MUC-Hardware/muc_ws/src/odom_publisher', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'LANGUAGE': 'en_IN:en', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/muc/MUC-Hardware/muc_ws/src', 'ROS_PYTHON_VERSION': '3', 'DEBUGINFOD_URLS': '', 'COLCON_PREFIX_PATH': '/home/muc/MUC-Hardware/muc_ws/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/bin/bash', 'AMENT_PREFIX_PATH': '/home/muc/MUC-Hardware/muc_ws/install/odom_publisher:/home/muc/MUC-Hardware/muc_ws/install/subscribe_encoder_values:/home/muc/MUC-Hardware/muc_ws/install/publish_pwm_values:/opt/ros/humble', 'SHELL': '/bin/bash', 'SUDO_USER': 'muc', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/muc/MUC-Hardware/muc_ws/build/odom_publisher', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/muc/MUC-Hardware/muc_ws/build/odom_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muc/MUC-Hardware/muc_ws/install/odom_publisher/lib/python3.10/site-packages:/home/muc/MUC-Hardware/muc_ws/install/odom_publisher/lib/python3.10/site-packages:/home/muc/MUC-Hardware/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages:/home/muc/MUC-Hardware/muc_ws/install/publish_pwm_values/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[5.647129] (subscribe_encoder_values) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/subscribe_encoder_values', 'build', '--build-base', '/home/muc/MUC-Hardware/muc_ws/build/subscribe_encoder_values/build', 'install', '--record', '/home/muc/MUC-Hardware/muc_ws/build/subscribe_encoder_values/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/muc/MUC-Hardware/muc_ws/src/subscribe_encoder_values', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'LANGUAGE': 'en_IN:en', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/muc/MUC-Hardware/muc_ws/src', 'ROS_PYTHON_VERSION': '3', 'DEBUGINFOD_URLS': '', 'COLCON_PREFIX_PATH': '/home/muc/MUC-Hardware/muc_ws/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/bin/bash', 'AMENT_PREFIX_PATH': '/home/muc/MUC-Hardware/muc_ws/install/odom_publisher:/home/muc/MUC-Hardware/muc_ws/install/subscribe_encoder_values:/home/muc/MUC-Hardware/muc_ws/install/publish_pwm_values:/opt/ros/humble', 'SHELL': '/bin/bash', 'SUDO_USER': 'muc', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/muc/MUC-Hardware/muc_ws/build/subscribe_encoder_values', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/muc/MUC-Hardware/muc_ws/build/subscribe_encoder_values/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muc/MUC-Hardware/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages:/home/muc/MUC-Hardware/muc_ws/install/odom_publisher/lib/python3.10/site-packages:/home/muc/MUC-Hardware/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages:/home/muc/MUC-Hardware/muc_ws/install/publish_pwm_values/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[5.677160] (-) TimerEvent: {}
+[5.778826] (-) TimerEvent: {}
+[5.880599] (-) TimerEvent: {}
+[5.982947] (-) TimerEvent: {}
+[6.083794] (-) TimerEvent: {}
+[6.184579] (-) TimerEvent: {}
+[6.285336] (-) TimerEvent: {}
+[6.386268] (-) TimerEvent: {}
+[6.487187] (-) TimerEvent: {}
+[6.587949] (-) TimerEvent: {}
+[6.688683] (-) TimerEvent: {}
+[6.790499] (-) TimerEvent: {}
+[6.892021] (-) TimerEvent: {}
+[6.972476] (publish_pwm_values) StdoutLine: {'line': b'running egg_info\n'}
+[6.975748] (publish_pwm_values) StdoutLine: {'line': b'writing ../../build/publish_pwm_values/publish_pwm_values.egg-info/PKG-INFO\n'}
+[6.978081] (publish_pwm_values) StdoutLine: {'line': b'writing dependency_links to ../../build/publish_pwm_values/publish_pwm_values.egg-info/dependency_links.txt\n'}
+[6.979149] (publish_pwm_values) StdoutLine: {'line': b'writing entry points to ../../build/publish_pwm_values/publish_pwm_values.egg-info/entry_points.txt\n'}
+[6.980119] (publish_pwm_values) StdoutLine: {'line': b'writing requirements to ../../build/publish_pwm_values/publish_pwm_values.egg-info/requires.txt\n'}
+[6.981052] (publish_pwm_values) StdoutLine: {'line': b'writing top-level names to ../../build/publish_pwm_values/publish_pwm_values.egg-info/top_level.txt\n'}
+[6.990102] (publish_pwm_values) StdoutLine: {'line': b"reading manifest file '../../build/publish_pwm_values/publish_pwm_values.egg-info/SOURCES.txt'\n"}
+[6.992317] (-) TimerEvent: {}
+[6.994489] (publish_pwm_values) StdoutLine: {'line': b"writing manifest file '../../build/publish_pwm_values/publish_pwm_values.egg-info/SOURCES.txt'\n"}
+[6.995625] (publish_pwm_values) StdoutLine: {'line': b'running build\n'}
+[6.996293] (publish_pwm_values) StdoutLine: {'line': b'running build_py\n'}
+[6.997733] (publish_pwm_values) StdoutLine: {'line': b'running install\n'}
+[6.999322] (publish_pwm_values) StdoutLine: {'line': b'running install_lib\n'}
+[7.005459] (publish_pwm_values) StdoutLine: {'line': b'running install_data\n'}
+[7.006364] (publish_pwm_values) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.017833] (odom_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[7.022549] (publish_pwm_values) StdoutLine: {'line': b"removing '/home/muc/MUC-Hardware/muc_ws/install/publish_pwm_values/lib/python3.10/site-packages/publish_pwm_values-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.023182] (publish_pwm_values) StdoutLine: {'line': b'Copying ../../build/publish_pwm_values/publish_pwm_values.egg-info to /home/muc/MUC-Hardware/muc_ws/install/publish_pwm_values/lib/python3.10/site-packages/publish_pwm_values-0.0.0-py3.10.egg-info\n'}
+[7.024237] (odom_publisher) StdoutLine: {'line': b'writing ../../build/odom_publisher/odom_publisher.egg-info/PKG-INFO\n'}
+[7.025802] (publish_pwm_values) StdoutLine: {'line': b'running install_scripts\n'}
+[7.026662] (odom_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/odom_publisher/odom_publisher.egg-info/dependency_links.txt\n'}
+[7.027868] (odom_publisher) StdoutLine: {'line': b'writing entry points to ../../build/odom_publisher/odom_publisher.egg-info/entry_points.txt\n'}
+[7.028916] (odom_publisher) StdoutLine: {'line': b'writing requirements to ../../build/odom_publisher/odom_publisher.egg-info/requires.txt\n'}
+[7.030076] (odom_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/odom_publisher/odom_publisher.egg-info/top_level.txt\n'}
+[7.040759] (odom_publisher) StdoutLine: {'line': b"reading manifest file '../../build/odom_publisher/odom_publisher.egg-info/SOURCES.txt'\n"}
+[7.045768] (odom_publisher) StdoutLine: {'line': b"writing manifest file '../../build/odom_publisher/odom_publisher.egg-info/SOURCES.txt'\n"}
+[7.046829] (odom_publisher) StdoutLine: {'line': b'running build\n'}
+[7.047393] (odom_publisher) StdoutLine: {'line': b'running build_py\n'}
+[7.048154] (odom_publisher) StdoutLine: {'line': b'copying odom_publisher/odom_publisher_node.py -> /home/muc/MUC-Hardware/muc_ws/build/odom_publisher/build/lib/odom_publisher\n'}
+[7.049570] (odom_publisher) StdoutLine: {'line': b'running install\n'}
+[7.051530] (odom_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[7.056296] (odom_publisher) StdoutLine: {'line': b'copying /home/muc/MUC-Hardware/muc_ws/build/odom_publisher/build/lib/odom_publisher/odom_publisher_node.py -> /home/muc/MUC-Hardware/muc_ws/install/odom_publisher/lib/python3.10/site-packages/odom_publisher\n'}
+[7.059943] (odom_publisher) StdoutLine: {'line': b'byte-compiling /home/muc/MUC-Hardware/muc_ws/install/odom_publisher/lib/python3.10/site-packages/odom_publisher/odom_publisher_node.py to odom_publisher_node.cpython-310.pyc\n'}
+[7.066971] (odom_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.076151] (odom_publisher) StdoutLine: {'line': b"removing '/home/muc/MUC-Hardware/muc_ws/install/odom_publisher/lib/python3.10/site-packages/odom_publisher-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.077295] (subscribe_encoder_values) StdoutLine: {'line': b'running egg_info\n'}
+[7.080127] (odom_publisher) StdoutLine: {'line': b'Copying ../../build/odom_publisher/odom_publisher.egg-info to /home/muc/MUC-Hardware/muc_ws/install/odom_publisher/lib/python3.10/site-packages/odom_publisher-0.0.0-py3.10.egg-info\n'}
+[7.081510] (subscribe_encoder_values) StdoutLine: {'line': b'writing ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/PKG-INFO\n'}
+[7.083840] (subscribe_encoder_values) StdoutLine: {'line': b'writing dependency_links to ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/dependency_links.txt\n'}
+[7.084988] (subscribe_encoder_values) StdoutLine: {'line': b'writing entry points to ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/entry_points.txt\n'}
+[7.085864] (subscribe_encoder_values) StdoutLine: {'line': b'writing requirements to ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/requires.txt\n'}
+[7.086826] (subscribe_encoder_values) StdoutLine: {'line': b'writing top-level names to ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/top_level.txt\n'}
+[7.089310] (odom_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[7.092485] (-) TimerEvent: {}
+[7.097583] (subscribe_encoder_values) StdoutLine: {'line': b"reading manifest file '../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/SOURCES.txt'\n"}
+[7.102392] (subscribe_encoder_values) StdoutLine: {'line': b"writing manifest file '../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/SOURCES.txt'\n"}
+[7.103737] (subscribe_encoder_values) StdoutLine: {'line': b'running build\n'}
+[7.104525] (subscribe_encoder_values) StdoutLine: {'line': b'running build_py\n'}
+[7.105950] (subscribe_encoder_values) StdoutLine: {'line': b'running install\n'}
+[7.107578] (subscribe_encoder_values) StdoutLine: {'line': b'running install_lib\n'}
+[7.115144] (subscribe_encoder_values) StdoutLine: {'line': b'running install_data\n'}
+[7.116373] (subscribe_encoder_values) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.125225] (subscribe_encoder_values) StdoutLine: {'line': b"removing '/home/muc/MUC-Hardware/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages/subscribe_encoder_values-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.127771] (subscribe_encoder_values) StdoutLine: {'line': b'Copying ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info to /home/muc/MUC-Hardware/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages/subscribe_encoder_values-0.0.0-py3.10.egg-info\n'}
+[7.137544] (publish_pwm_values) StdoutLine: {'line': b'Installing publish_pwm_values script to /home/muc/MUC-Hardware/muc_ws/install/publish_pwm_values/lib/publish_pwm_values\n'}
+[7.138722] (publish_pwm_values) StdoutLine: {'line': b"writing list of installed files to '/home/muc/MUC-Hardware/muc_ws/build/publish_pwm_values/install.log'\n"}
+[7.143022] (subscribe_encoder_values) StdoutLine: {'line': b'running install_scripts\n'}
+[7.192743] (-) TimerEvent: {}
+[7.234438] (odom_publisher) StdoutLine: {'line': b'Installing odom_publisher_node script to /home/muc/MUC-Hardware/muc_ws/install/odom_publisher/lib/odom_publisher\n'}
+[7.238321] (odom_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/muc/MUC-Hardware/muc_ws/build/odom_publisher/install.log'\n"}
+[7.293162] (-) TimerEvent: {}
+[7.308887] (subscribe_encoder_values) StdoutLine: {'line': b'Installing subscribe_encoder_values script to /home/muc/MUC-Hardware/muc_ws/install/subscribe_encoder_values/lib/subscribe_encoder_values\n'}
+[7.327964] (subscribe_encoder_values) StdoutLine: {'line': b"writing list of installed files to '/home/muc/MUC-Hardware/muc_ws/build/subscribe_encoder_values/install.log'\n"}
+[7.330655] (publish_pwm_values) CommandEnded: {'returncode': 0}
+[7.398906] (-) TimerEvent: {}
+[7.456851] (publish_pwm_values) JobEnded: {'identifier': 'publish_pwm_values', 'rc': 0}
+[7.465230] (odom_publisher) CommandEnded: {'returncode': 0}
+[7.499125] (-) TimerEvent: {}
+[7.503892] (odom_publisher) JobEnded: {'identifier': 'odom_publisher', 'rc': 0}
+[7.508454] (subscribe_encoder_values) CommandEnded: {'returncode': 0}
+[7.538749] (subscribe_encoder_values) JobEnded: {'identifier': 'subscribe_encoder_values', 'rc': 0}
+[7.541631] (-) EventReactorShutdown: {}

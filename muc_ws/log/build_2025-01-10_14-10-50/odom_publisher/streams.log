@@ -1,0 +1,23 @@
+[0.794s] Invoking command in '/home/anirudh/MUC-Hardware/muc_ws/src/odom_publisher': PYTHONPATH=/home/anirudh/MUC-Hardware/muc_ws/build/odom_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anirudh/MUC-Hardware/muc_ws/install/odom_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odom_publisher build --build-base /home/anirudh/MUC-Hardware/muc_ws/build/odom_publisher/build install --record /home/anirudh/MUC-Hardware/muc_ws/build/odom_publisher/install.log --single-version-externally-managed
+[0.949s] running egg_info
+[0.949s] writing ../../build/odom_publisher/odom_publisher.egg-info/PKG-INFO
+[0.949s] writing dependency_links to ../../build/odom_publisher/odom_publisher.egg-info/dependency_links.txt
+[0.950s] writing entry points to ../../build/odom_publisher/odom_publisher.egg-info/entry_points.txt
+[0.950s] writing requirements to ../../build/odom_publisher/odom_publisher.egg-info/requires.txt
+[0.950s] writing top-level names to ../../build/odom_publisher/odom_publisher.egg-info/top_level.txt
+[0.951s] reading manifest file '../../build/odom_publisher/odom_publisher.egg-info/SOURCES.txt'
+[0.953s] writing manifest file '../../build/odom_publisher/odom_publisher.egg-info/SOURCES.txt'
+[0.953s] running build
+[0.953s] running build_py
+[0.954s] copying odom_publisher/odom_publisher_node.py -> /home/anirudh/MUC-Hardware/muc_ws/build/odom_publisher/build/lib/odom_publisher
+[0.954s] running install
+[0.954s] running install_lib
+[0.954s] copying /home/anirudh/MUC-Hardware/muc_ws/build/odom_publisher/build/lib/odom_publisher/odom_publisher_node.py -> /home/anirudh/MUC-Hardware/muc_ws/install/odom_publisher/lib/python3.10/site-packages/odom_publisher
+[0.955s] byte-compiling /home/anirudh/MUC-Hardware/muc_ws/install/odom_publisher/lib/python3.10/site-packages/odom_publisher/odom_publisher_node.py to odom_publisher_node.cpython-310.pyc
+[0.955s] running install_egg_info
+[0.956s] removing '/home/anirudh/MUC-Hardware/muc_ws/install/odom_publisher/lib/python3.10/site-packages/odom_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[0.956s] Copying ../../build/odom_publisher/odom_publisher.egg-info to /home/anirudh/MUC-Hardware/muc_ws/install/odom_publisher/lib/python3.10/site-packages/odom_publisher-0.0.0-py3.10.egg-info
+[0.957s] running install_scripts
+[0.972s] Installing odom_publisher_node script to /home/anirudh/MUC-Hardware/muc_ws/install/odom_publisher/lib/odom_publisher
+[0.972s] writing list of installed files to '/home/anirudh/MUC-Hardware/muc_ws/build/odom_publisher/install.log'
+[0.991s] Invoked command in '/home/anirudh/MUC-Hardware/muc_ws/src/odom_publisher' returned '0': PYTHONPATH=/home/anirudh/MUC-Hardware/muc_ws/build/odom_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anirudh/MUC-Hardware/muc_ws/install/odom_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odom_publisher build --build-base /home/anirudh/MUC-Hardware/muc_ws/build/odom_publisher/build install --record /home/anirudh/MUC-Hardware/muc_ws/build/odom_publisher/install.log --single-version-externally-managed

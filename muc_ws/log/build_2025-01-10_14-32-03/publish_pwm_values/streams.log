@@ -1,0 +1,21 @@
+[1.555s] Invoking command in '/home/anirudh/MUC-Hardware/muc_ws/src/publish_pwm_values': PYTHONPATH=/home/anirudh/MUC-Hardware/muc_ws/build/publish_pwm_values/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anirudh/MUC-Hardware/muc_ws/install/publish_pwm_values/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/publish_pwm_values build --build-base /home/anirudh/MUC-Hardware/muc_ws/build/publish_pwm_values/build install --record /home/anirudh/MUC-Hardware/muc_ws/build/publish_pwm_values/install.log --single-version-externally-managed install_data
+[1.890s] running egg_info
+[1.891s] writing ../../build/publish_pwm_values/publish_pwm_values.egg-info/PKG-INFO
+[1.892s] writing dependency_links to ../../build/publish_pwm_values/publish_pwm_values.egg-info/dependency_links.txt
+[1.892s] writing entry points to ../../build/publish_pwm_values/publish_pwm_values.egg-info/entry_points.txt
+[1.892s] writing requirements to ../../build/publish_pwm_values/publish_pwm_values.egg-info/requires.txt
+[1.892s] writing top-level names to ../../build/publish_pwm_values/publish_pwm_values.egg-info/top_level.txt
+[1.895s] reading manifest file '../../build/publish_pwm_values/publish_pwm_values.egg-info/SOURCES.txt'
+[1.897s] writing manifest file '../../build/publish_pwm_values/publish_pwm_values.egg-info/SOURCES.txt'
+[1.897s] running build
+[1.897s] running build_py
+[1.897s] running install
+[1.897s] running install_lib
+[1.899s] running install_data
+[1.899s] running install_egg_info
+[1.902s] removing '/home/anirudh/MUC-Hardware/muc_ws/install/publish_pwm_values/lib/python3.10/site-packages/publish_pwm_values-0.0.0-py3.10.egg-info' (and everything under it)
+[1.902s] Copying ../../build/publish_pwm_values/publish_pwm_values.egg-info to /home/anirudh/MUC-Hardware/muc_ws/install/publish_pwm_values/lib/python3.10/site-packages/publish_pwm_values-0.0.0-py3.10.egg-info
+[1.903s] running install_scripts
+[1.932s] Installing publish_pwm_values script to /home/anirudh/MUC-Hardware/muc_ws/install/publish_pwm_values/lib/publish_pwm_values
+[1.933s] writing list of installed files to '/home/anirudh/MUC-Hardware/muc_ws/build/publish_pwm_values/install.log'
+[1.976s] Invoked command in '/home/anirudh/MUC-Hardware/muc_ws/src/publish_pwm_values' returned '0': PYTHONPATH=/home/anirudh/MUC-Hardware/muc_ws/build/publish_pwm_values/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anirudh/MUC-Hardware/muc_ws/install/publish_pwm_values/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/publish_pwm_values build --build-base /home/anirudh/MUC-Hardware/muc_ws/build/publish_pwm_values/build install --record /home/anirudh/MUC-Hardware/muc_ws/build/publish_pwm_values/install.log --single-version-externally-managed install_data

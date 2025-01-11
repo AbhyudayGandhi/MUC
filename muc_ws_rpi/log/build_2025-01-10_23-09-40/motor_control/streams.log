@@ -1,0 +1,21 @@
+[5.654s] Invoking command in '/home/muc/MUC-Hardware/muc_ws_rpi/src/motor_control': PYTHONPATH=/home/muc/MUC-Hardware/muc_ws_rpi/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/muc/MUC-Hardware/muc_ws_rpi/build/motor_control/build install --record /home/muc/MUC-Hardware/muc_ws_rpi/build/motor_control/install.log --single-version-externally-managed install_data
+[7.048s] running egg_info
+[7.053s] writing ../../build/motor_control/motor_control.egg-info/PKG-INFO
+[7.055s] writing dependency_links to ../../build/motor_control/motor_control.egg-info/dependency_links.txt
+[7.057s] writing entry points to ../../build/motor_control/motor_control.egg-info/entry_points.txt
+[7.059s] writing requirements to ../../build/motor_control/motor_control.egg-info/requires.txt
+[7.060s] writing top-level names to ../../build/motor_control/motor_control.egg-info/top_level.txt
+[7.069s] reading manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[7.074s] writing manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[7.075s] running build
+[7.076s] running build_py
+[7.081s] running install
+[7.082s] running install_lib
+[7.094s] running install_data
+[7.094s] running install_egg_info
+[7.104s] removing '/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info' (and everything under it)
+[7.106s] Copying ../../build/motor_control/motor_control.egg-info to /home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info
+[7.116s] running install_scripts
+[7.230s] Installing motor_control_node script to /home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/lib/motor_control
+[7.237s] writing list of installed files to '/home/muc/MUC-Hardware/muc_ws_rpi/build/motor_control/install.log'
+[7.527s] Invoked command in '/home/muc/MUC-Hardware/muc_ws_rpi/src/motor_control' returned '0': PYTHONPATH=/home/muc/MUC-Hardware/muc_ws_rpi/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/muc/MUC-Hardware/muc_ws_rpi/build/motor_control/build install --record /home/muc/MUC-Hardware/muc_ws_rpi/build/motor_control/install.log --single-version-externally-managed install_data

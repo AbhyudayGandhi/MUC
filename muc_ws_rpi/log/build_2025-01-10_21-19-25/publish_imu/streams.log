@@ -1,0 +1,16 @@
+[2.578s] Invoking command in '/home/muc/MUC-Hardware/muc_ws_rpi/src/publish_imu': PYTHONPATH=/home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/publish_imu build --build-base /home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu/build install --record /home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu/install.log --single-version-externally-managed install_data
+[3.620s] running egg_info
+[3.622s] writing ../../build/publish_imu/publish_imu.egg-info/PKG-INFO
+[3.623s] writing dependency_links to ../../build/publish_imu/publish_imu.egg-info/dependency_links.txt
+[3.624s] writing entry points to ../../build/publish_imu/publish_imu.egg-info/entry_points.txt
+[3.624s] writing requirements to ../../build/publish_imu/publish_imu.egg-info/requires.txt
+[3.625s] writing top-level names to ../../build/publish_imu/publish_imu.egg-info/top_level.txt
+[3.633s] reading manifest file '../../build/publish_imu/publish_imu.egg-info/SOURCES.txt'
+[3.637s] writing manifest file '../../build/publish_imu/publish_imu.egg-info/SOURCES.txt'
+[3.638s] running build
+[3.638s] running build_py
+[3.639s] running install
+[3.640s] running install_lib
+[3.646s] running install_data
+[3.647s] error: can't copy 'launch/imu_publisher.launch.py': doesn't exist or not a regular file
+[3.738s] Invoked command in '/home/muc/MUC-Hardware/muc_ws_rpi/src/publish_imu' returned '1': PYTHONPATH=/home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/publish_imu build --build-base /home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu/build install --record /home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu/install.log --single-version-externally-managed install_data

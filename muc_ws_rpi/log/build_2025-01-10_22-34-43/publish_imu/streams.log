@@ -1,0 +1,24 @@
+[5.733s] Invoking command in '/home/muc/MUC-Hardware/muc_ws_rpi/src/publish_imu': PYTHONPATH=/home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/publish_imu build --build-base /home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu/build install --record /home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu/install.log --single-version-externally-managed install_data
+[7.142s] running egg_info
+[7.145s] writing ../../build/publish_imu/publish_imu.egg-info/PKG-INFO
+[7.146s] writing dependency_links to ../../build/publish_imu/publish_imu.egg-info/dependency_links.txt
+[7.148s] writing entry points to ../../build/publish_imu/publish_imu.egg-info/entry_points.txt
+[7.149s] writing requirements to ../../build/publish_imu/publish_imu.egg-info/requires.txt
+[7.150s] writing top-level names to ../../build/publish_imu/publish_imu.egg-info/top_level.txt
+[7.160s] reading manifest file '../../build/publish_imu/publish_imu.egg-info/SOURCES.txt'
+[7.165s] writing manifest file '../../build/publish_imu/publish_imu.egg-info/SOURCES.txt'
+[7.166s] running build
+[7.167s] running build_py
+[7.167s] copying publish_imu/imu_publisher.py -> /home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu/build/lib/publish_imu
+[7.196s] running install
+[7.197s] running install_lib
+[7.199s] copying /home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu/build/lib/publish_imu/imu_publisher.py -> /home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/lib/python3.10/site-packages/publish_imu
+[7.199s] byte-compiling /home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/lib/python3.10/site-packages/publish_imu/imu_publisher.py to imu_publisher.cpython-310.pyc
+[7.200s] running install_data
+[7.200s] running install_egg_info
+[7.202s] removing '/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/lib/python3.10/site-packages/publish_imu-0.0.0-py3.10.egg-info' (and everything under it)
+[7.205s] Copying ../../build/publish_imu/publish_imu.egg-info to /home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/lib/python3.10/site-packages/publish_imu-0.0.0-py3.10.egg-info
+[7.211s] running install_scripts
+[7.329s] Installing imu_publisher script to /home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/lib/publish_imu
+[7.333s] writing list of installed files to '/home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu/install.log'
+[7.597s] Invoked command in '/home/muc/MUC-Hardware/muc_ws_rpi/src/publish_imu' returned '0': PYTHONPATH=/home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/publish_imu build --build-base /home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu/build install --record /home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu/install.log --single-version-externally-managed install_data

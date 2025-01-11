@@ -1,0 +1,228 @@
+[0.447s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.447s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff90be7640>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff90d502b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff90d502b0>>)
+[1.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.239s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/muc/MUC-Hardware/muc_ws_rpi'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.290s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.290s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_reader) by extensions ['ignore', 'ignore_ament_install']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_reader) by extension 'ignore'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_reader) by extension 'ignore_ament_install'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_reader) by extensions ['colcon_pkg']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_reader) by extension 'colcon_pkg'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_reader) by extensions ['colcon_meta']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_reader) by extension 'colcon_meta'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_reader) by extensions ['ros']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_reader) by extension 'ros'
+[1.310s] DEBUG:colcon.colcon_core.package_identification:Package 'src/encoder_reader' with type 'ros.ament_python' and name 'encoder_reader'
+[1.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['ignore', 'ignore_ament_install']
+[1.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'ignore'
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'ignore_ament_install'
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['colcon_pkg']
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'colcon_pkg'
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['colcon_meta']
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'colcon_meta'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['ros']
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'ros'
+[1.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_control' with type 'ros.ament_python' and name 'motor_control'
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_imu) by extensions ['ignore', 'ignore_ament_install']
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_imu) by extension 'ignore'
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_imu) by extension 'ignore_ament_install'
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_imu) by extensions ['colcon_pkg']
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_imu) by extension 'colcon_pkg'
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_imu) by extensions ['colcon_meta']
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_imu) by extension 'colcon_meta'
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_imu) by extensions ['ros']
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_imu) by extension 'ros'
+[1.326s] DEBUG:colcon.colcon_core.package_identification:Package 'src/publish_imu' with type 'ros.ament_python' and name 'publish_imu'
+[1.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.421s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/muc/MUC-Hardware/muc_ws_rpi/install
+[1.431s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[1.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'encoder_reader' build argument 'cmake_args' from command line to 'None'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'encoder_reader' build argument 'cmake_target' from command line to 'None'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'encoder_reader' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'encoder_reader' build argument 'cmake_clean_cache' from command line to 'False'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'encoder_reader' build argument 'cmake_clean_first' from command line to 'False'
+[1.643s] Level 5:colcon.colcon_core.verb:set package 'encoder_reader' build argument 'cmake_force_configure' from command line to 'False'
+[1.643s] Level 5:colcon.colcon_core.verb:set package 'encoder_reader' build argument 'ament_cmake_args' from command line to 'None'
+[1.643s] Level 5:colcon.colcon_core.verb:set package 'encoder_reader' build argument 'catkin_cmake_args' from command line to 'None'
+[1.643s] Level 5:colcon.colcon_core.verb:set package 'encoder_reader' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.643s] DEBUG:colcon.colcon_core.verb:Building package 'encoder_reader' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/muc/MUC-Hardware/muc_ws_rpi/build/encoder_reader', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader', 'merge_install': False, 'path': '/home/muc/MUC-Hardware/muc_ws_rpi/src/encoder_reader', 'symlink_install': False, 'test_result_base': None}
+[1.644s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_args' from command line to 'None'
+[1.645s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_target' from command line to 'None'
+[1.645s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.645s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.645s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.645s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.645s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.645s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.645s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.646s] DEBUG:colcon.colcon_core.verb:Building package 'motor_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/muc/MUC-Hardware/muc_ws_rpi/build/motor_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control', 'merge_install': False, 'path': '/home/muc/MUC-Hardware/muc_ws_rpi/src/motor_control', 'symlink_install': False, 'test_result_base': None}
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'publish_imu' build argument 'cmake_args' from command line to 'None'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'publish_imu' build argument 'cmake_target' from command line to 'None'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'publish_imu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'publish_imu' build argument 'cmake_clean_cache' from command line to 'False'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'publish_imu' build argument 'cmake_clean_first' from command line to 'False'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'publish_imu' build argument 'cmake_force_configure' from command line to 'False'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'publish_imu' build argument 'ament_cmake_args' from command line to 'None'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'publish_imu' build argument 'catkin_cmake_args' from command line to 'None'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'publish_imu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.648s] DEBUG:colcon.colcon_core.verb:Building package 'publish_imu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu', 'merge_install': False, 'path': '/home/muc/MUC-Hardware/muc_ws_rpi/src/publish_imu', 'symlink_install': False, 'test_result_base': None}
+[1.648s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.651s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.652s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/muc/MUC-Hardware/muc_ws_rpi/src/encoder_reader' with build type 'ament_python'
+[1.653s] Level 1:colcon.colcon_core.shell:create_environment_hook('encoder_reader', 'ament_prefix_path')
+[1.662s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader/share/encoder_reader/hook/ament_prefix_path.ps1'
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader/share/encoder_reader/hook/ament_prefix_path.dsv'
+[1.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader/share/encoder_reader/hook/ament_prefix_path.sh'
+[1.672s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.672s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.694s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/muc/MUC-Hardware/muc_ws_rpi/src/motor_control' with build type 'ament_python'
+[1.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_control', 'ament_prefix_path')
+[1.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/share/motor_control/hook/ament_prefix_path.ps1'
+[1.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/share/motor_control/hook/ament_prefix_path.dsv'
+[1.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/share/motor_control/hook/ament_prefix_path.sh'
+[1.705s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.705s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.724s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/muc/MUC-Hardware/muc_ws_rpi/src/publish_imu' with build type 'ament_python'
+[1.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('publish_imu', 'ament_prefix_path')
+[1.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/share/publish_imu/hook/ament_prefix_path.ps1'
+[1.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/share/publish_imu/hook/ament_prefix_path.dsv'
+[1.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/share/publish_imu/hook/ament_prefix_path.sh'
+[1.735s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.735s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.929s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/muc/MUC-Hardware/muc_ws_rpi/src/encoder_reader'
+[2.930s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.930s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.114s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/muc/MUC-Hardware/muc_ws_rpi/src/motor_control'
+[4.115s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.116s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.281s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/muc/MUC-Hardware/muc_ws_rpi/src/publish_imu'
+[5.282s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.282s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/muc/MUC-Hardware/muc_ws_rpi/src/publish_imu': PYTHONPATH=/home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/publish_imu build --build-base /home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu/build install --record /home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu/install.log --single-version-externally-managed install_data
+[7.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/muc/MUC-Hardware/muc_ws_rpi/src/motor_control': PYTHONPATH=/home/muc/MUC-Hardware/muc_ws_rpi/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/muc/MUC-Hardware/muc_ws_rpi/build/motor_control/build install --record /home/muc/MUC-Hardware/muc_ws_rpi/build/motor_control/install.log --single-version-externally-managed install_data
+[7.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/muc/MUC-Hardware/muc_ws_rpi/src/encoder_reader': PYTHONPATH=/home/muc/MUC-Hardware/muc_ws_rpi/build/encoder_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/encoder_reader build --build-base /home/muc/MUC-Hardware/muc_ws_rpi/build/encoder_reader/build install --record /home/muc/MUC-Hardware/muc_ws_rpi/build/encoder_reader/install.log --single-version-externally-managed install_data
+[9.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/muc/MUC-Hardware/muc_ws_rpi/src/publish_imu' returned '0': PYTHONPATH=/home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/publish_imu build --build-base /home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu/build install --record /home/muc/MUC-Hardware/muc_ws_rpi/build/publish_imu/install.log --single-version-externally-managed install_data
+[9.145s] Level 1:colcon.colcon_core.environment:checking '/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu' for CMake module files
+[9.151s] Level 1:colcon.colcon_core.environment:checking '/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu' for CMake config files
+[9.163s] Level 1:colcon.colcon_core.environment:checking '/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/lib'
+[9.165s] Level 1:colcon.colcon_core.environment:checking '/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/bin'
+[9.165s] Level 1:colcon.colcon_core.environment:checking '/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/lib/pkgconfig/publish_imu.pc'
+[9.167s] Level 1:colcon.colcon_core.environment:checking '/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/lib/python3.10/site-packages'
+[9.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('publish_imu', 'pythonpath')
+[9.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/share/publish_imu/hook/pythonpath.ps1'
+[9.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/share/publish_imu/hook/pythonpath.dsv'
+[9.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/share/publish_imu/hook/pythonpath.sh'
+[9.183s] Level 1:colcon.colcon_core.environment:checking '/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/bin'
+[9.184s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(publish_imu)
+[9.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/share/publish_imu/package.ps1'
+[9.192s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/share/publish_imu/package.dsv'
+[9.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/share/publish_imu/package.sh'
+[9.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/share/publish_imu/package.bash'
+[9.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/share/publish_imu/package.zsh'
+[9.210s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/muc/MUC-Hardware/muc_ws_rpi/install/publish_imu/share/colcon-core/packages/publish_imu)
+[9.219s] Level 1:colcon.colcon_core.environment:checking '/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control' for CMake module files
+[9.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/muc/MUC-Hardware/muc_ws_rpi/src/motor_control' returned '0': PYTHONPATH=/home/muc/MUC-Hardware/muc_ws_rpi/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/muc/MUC-Hardware/muc_ws_rpi/build/motor_control/build install --record /home/muc/MUC-Hardware/muc_ws_rpi/build/motor_control/install.log --single-version-externally-managed install_data
+[9.224s] Level 1:colcon.colcon_core.environment:checking '/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control' for CMake config files
+[9.228s] Level 1:colcon.colcon_core.environment:checking '/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/lib'
+[9.228s] Level 1:colcon.colcon_core.environment:checking '/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/bin'
+[9.229s] Level 1:colcon.colcon_core.environment:checking '/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/lib/pkgconfig/motor_control.pc'
+[9.229s] Level 1:colcon.colcon_core.environment:checking '/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages'
+[9.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_control', 'pythonpath')
+[9.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/share/motor_control/hook/pythonpath.ps1'
+[9.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/share/motor_control/hook/pythonpath.dsv'
+[9.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/share/motor_control/hook/pythonpath.sh'
+[9.237s] Level 1:colcon.colcon_core.environment:checking '/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/bin'
+[9.238s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_control)
+[9.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/share/motor_control/package.ps1'
+[9.241s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/share/motor_control/package.dsv'
+[9.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/share/motor_control/package.sh'
+[9.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/share/motor_control/package.bash'
+[9.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/share/motor_control/package.zsh'
+[9.250s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/muc/MUC-Hardware/muc_ws_rpi/install/motor_control/share/colcon-core/packages/motor_control)
+[9.254s] Level 1:colcon.colcon_core.environment:checking '/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader' for CMake module files
+[9.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/muc/MUC-Hardware/muc_ws_rpi/src/encoder_reader' returned '0': PYTHONPATH=/home/muc/MUC-Hardware/muc_ws_rpi/build/encoder_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/encoder_reader build --build-base /home/muc/MUC-Hardware/muc_ws_rpi/build/encoder_reader/build install --record /home/muc/MUC-Hardware/muc_ws_rpi/build/encoder_reader/install.log --single-version-externally-managed install_data
+[9.258s] Level 1:colcon.colcon_core.environment:checking '/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader' for CMake config files
+[9.263s] Level 1:colcon.colcon_core.environment:checking '/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader/lib'
+[9.263s] Level 1:colcon.colcon_core.environment:checking '/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader/bin'
+[9.264s] Level 1:colcon.colcon_core.environment:checking '/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader/lib/pkgconfig/encoder_reader.pc'
+[9.265s] Level 1:colcon.colcon_core.environment:checking '/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages'
+[9.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('encoder_reader', 'pythonpath')
+[9.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader/share/encoder_reader/hook/pythonpath.ps1'
+[9.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader/share/encoder_reader/hook/pythonpath.dsv'
+[9.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader/share/encoder_reader/hook/pythonpath.sh'
+[9.275s] Level 1:colcon.colcon_core.environment:checking '/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader/bin'
+[9.275s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(encoder_reader)
+[9.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader/share/encoder_reader/package.ps1'
+[9.279s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader/share/encoder_reader/package.dsv'
+[9.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader/share/encoder_reader/package.sh'
+[9.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader/share/encoder_reader/package.bash'
+[9.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader/share/encoder_reader/package.zsh'
+[9.287s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/muc/MUC-Hardware/muc_ws_rpi/install/encoder_reader/share/colcon-core/packages/encoder_reader)
+[9.288s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.289s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.290s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.290s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.310s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.310s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.310s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.311s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[9.311s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.312s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/muc/MUC-Hardware/muc_ws_rpi/install/local_setup.ps1'
+[9.316s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/muc/MUC-Hardware/muc_ws_rpi/install/_local_setup_util_ps1.py'
+[9.322s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/muc/MUC-Hardware/muc_ws_rpi/install/setup.ps1'
+[9.327s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/muc/MUC-Hardware/muc_ws_rpi/install/local_setup.sh'
+[9.330s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/muc/MUC-Hardware/muc_ws_rpi/install/_local_setup_util_sh.py'
+[9.333s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/muc/MUC-Hardware/muc_ws_rpi/install/setup.sh'
+[9.338s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/muc/MUC-Hardware/muc_ws_rpi/install/local_setup.bash'
+[9.340s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/muc/MUC-Hardware/muc_ws_rpi/install/setup.bash'
+[9.345s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/muc/MUC-Hardware/muc_ws_rpi/install/local_setup.zsh'
+[9.347s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/muc/MUC-Hardware/muc_ws_rpi/install/setup.zsh'

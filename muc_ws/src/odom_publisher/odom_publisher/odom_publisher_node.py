@@ -1,11 +1,10 @@
-#!/usr/bin/env python3
-
 import rclpy
 from rclpy.node import Node
 from nav_msgs.msg import Odometry
 from geometry_msgs.msg import Quaternion, TransformStamped
 from tf2_ros import TransformBroadcaster
 from std_msgs.msg import Int32
+from sensor_msgs.msg import Imu  # Import the IMU message type
 import math
 
 class OdomPublisher(Node):
@@ -35,6 +34,9 @@ class OdomPublisher(Node):
         self.previous_encoder_values = [0, 0, 0, 0]  # To store previous encoder ticks
         self.encoder_values = [0, 0, 0, 0]  # For four motors
 
+        # IMU quaternion values (initialize to 0, as we'll update from IMU)
+        self.imu_orientation = Quaternion()
+
         # Subscribe to encoder topics
         self.subscription_1 = self.create_subscription(
             Int32,
@@ -61,6 +63,14 @@ class OdomPublisher(Node):
             10
         )
 
+        # Subscribe to IMU topic (imu_publisher)
+        self.imu_subscription = self.create_subscription(
+            Imu,                      # Message type (IMU data)
+            'imu/orientation',           # Topic name
+            self.imu_callback,         # Callback function to handle IMU data
+            10                         # QoS (Quality of Service) Depth
+        )
+
         # Timer to publish odometry
         self.create_timer(0.1, self.publish_odometry)  # Adjust the timer interval as needed
 
@@ -75,7 +85,13 @@ class OdomPublisher(Node):
         
     def encoder_callback_4(self, msg):
         self.encoder_values[3] = msg.data
-        
+
+    def imu_callback(self, msg):
+        # Callback function for IMU data
+        # Extract and store the IMU orientation
+        self.imu_orientation = msg.orientation
+        self.get_logger().info(f"Received IMU data: Orientation - {self.imu_orientation}")
+
     def publish_odometry(self):
         current_time = self.get_clock().now()
         dt = (current_time - self.last_time).nanoseconds / 1e9
@@ -111,8 +127,8 @@ class OdomPublisher(Node):
         self.y += delta_y
         self.th += delta_th
 
-        # Create quaternion from yaw (th)
-        odom_quat = self.quaternion_from_euler(0, 0, self.th)
+        # Use the IMU orientation for odometry quaternion
+        odom_quat = self.imu_orientation  # Use the IMU quaternion for the odometry
 
         # Publish the transform over tf
         transform = TransformStamped()

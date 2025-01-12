@@ -87,10 +87,12 @@ class OdomPublisher(Node):
         self.encoder_values[3] = msg.data
 
     def imu_callback(self, msg):
-        # Callback function for IMU data
-        # Extract and store the IMU orientation
+	    # Store the IMU quaternion
         self.imu_orientation = msg.orientation
-        self.get_logger().info(f"Received IMU data: Orientation - {self.imu_orientation}")
+        
+        # Extract yaw angle from quaternion
+        self.th = self.yaw_from_quaternion(self.imu_orientation)
+        self.get_logger().info(f"Received IMU yaw: {self.th:.2f} radians")
 
     def publish_odometry(self):
         current_time = self.get_clock().now()
@@ -121,11 +123,11 @@ class OdomPublisher(Node):
         # Calculate changes in position and orientation
         delta_x = vx * math.cos(self.th) * dt
         delta_y = vx * math.sin(self.th) * dt
-        delta_th = vth * dt
+        #delta_th = vth * dt
 
         self.x += delta_x
         self.y += delta_y
-        self.th += delta_th
+        #self.th += delta_th
 
         # Use the IMU orientation for odometry quaternion
         odom_quat = self.imu_orientation  # Use the IMU quaternion for the odometry
@@ -169,6 +171,12 @@ class OdomPublisher(Node):
         qw = math.cos(roll / 2) * math.cos(pitch / 2) * math.cos(yaw / 2) + math.sin(roll / 2) * math.sin(pitch / 2) * math.sin(yaw / 2)
         return Quaternion(x=qx, y=qy, z=qz, w=qw)
 
+    def yaw_from_quaternion(self, quat):
+    	# Convert quaternion to yaw
+    	siny_cosp = 2 * (quat.w * quat.z + quat.x * quat.y)
+    	cosy_cosp = 1 - 2 * (quat.y ** 2 + quat.z ** 2)
+    	return math.atan2(siny_cosp, cosy_cosp)
+	
 def main(args=None):
     rclpy.init(args=args)
     odom_node = OdomPublisher()

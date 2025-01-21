@@ -1,0 +1,24 @@
+[1.290s] Invoking command in '/home/gnanasai/MUC-Hardware/muc_ws/src/dev_sys': PYTHONPATH=/home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dev_sys build --build-base /home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/build install --record /home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/install.log --single-version-externally-managed install_data
+[1.579s] running egg_info
+[1.580s] writing ../../build/dev_sys/dev_sys.egg-info/PKG-INFO
+[1.581s] writing dependency_links to ../../build/dev_sys/dev_sys.egg-info/dependency_links.txt
+[1.581s] writing entry points to ../../build/dev_sys/dev_sys.egg-info/entry_points.txt
+[1.581s] writing requirements to ../../build/dev_sys/dev_sys.egg-info/requires.txt
+[1.582s] writing top-level names to ../../build/dev_sys/dev_sys.egg-info/top_level.txt
+[1.583s] reading manifest file '../../build/dev_sys/dev_sys.egg-info/SOURCES.txt'
+[1.585s] writing manifest file '../../build/dev_sys/dev_sys.egg-info/SOURCES.txt'
+[1.585s] running build
+[1.585s] running build_py
+[1.585s] running install
+[1.586s] running install_lib
+[1.590s] running install_data
+[1.590s] copying launch/rsp.launch.py -> /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/share/dev_sys/launch
+[1.590s] running install_egg_info
+[1.593s] removing '/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/python3.10/site-packages/dev_sys-0.0.0-py3.10.egg-info' (and everything under it)
+[1.593s] Copying ../../build/dev_sys/dev_sys.egg-info to /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/python3.10/site-packages/dev_sys-0.0.0-py3.10.egg-info
+[1.595s] running install_scripts
+[1.625s] Installing odom_publisher script to /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/dev_sys
+[1.625s] Installing publish_pwm_values script to /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/dev_sys
+[1.625s] Installing subscribe_encoder_values script to /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/dev_sys
+[1.625s] writing list of installed files to '/home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/install.log'
+[1.659s] Invoked command in '/home/gnanasai/MUC-Hardware/muc_ws/src/dev_sys' returned '0': PYTHONPATH=/home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dev_sys build --build-base /home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/build install --record /home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/install.log --single-version-externally-managed install_data

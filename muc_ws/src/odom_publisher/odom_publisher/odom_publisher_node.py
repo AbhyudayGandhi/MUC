@@ -46,7 +46,7 @@ class OdomPublisher(Node):
         self.create_subscription(Imu, 'imu/orientation', self.imu_callback, 10)
 
         # Timer to publish odometry
-        self.create_timer(0.1, self.publish_odometry)
+        self.create_timer(0.05, self.publish_odometry)
 
     def encoder_callback_1(self, msg):
         self.encoder_values[0] = msg.data
@@ -104,8 +104,8 @@ class OdomPublisher(Node):
         transform.header.stamp = current_time.to_msg()
         transform.header.frame_id = 'odom'
         transform.child_frame_id = 'base_link'
-        transform.transform.translation.x = self.x
-        transform.transform.translation.y = self.y
+        transform.transform.translation.x = -self.x
+        transform.transform.translation.y = -self.y
         transform.transform.translation.z = 0.0
         transform.transform.rotation = imu_quat
         self.odom_broadcaster.sendTransform(transform)
@@ -115,8 +115,8 @@ class OdomPublisher(Node):
         odom.header.stamp = current_time.to_msg()
         odom.header.frame_id = "odom"
         odom.child_frame_id = "base_link"
-        odom.pose.pose.position.x = self.x
-        odom.pose.pose.position.y = self.y
+        odom.pose.pose.position.x = -self.x
+        odom.pose.pose.position.y = -self.y
         odom.pose.pose.orientation = imu_quat
         odom.twist.twist.linear.x = vx
         odom.twist.twist.angular.z = vth

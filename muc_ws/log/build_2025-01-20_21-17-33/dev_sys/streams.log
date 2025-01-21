@@ -1,0 +1,16 @@
+[1.257s] Invoking command in '/home/gnanasai/MUC-Hardware/muc_ws/src/dev_sys': PYTHONPATH=/home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dev_sys build --build-base /home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/build install --record /home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/install.log --single-version-externally-managed install_data
+[1.485s] running egg_info
+[1.486s] writing ../../build/dev_sys/dev_sys.egg-info/PKG-INFO
+[1.486s] writing dependency_links to ../../build/dev_sys/dev_sys.egg-info/dependency_links.txt
+[1.486s] writing entry points to ../../build/dev_sys/dev_sys.egg-info/entry_points.txt
+[1.486s] writing requirements to ../../build/dev_sys/dev_sys.egg-info/requires.txt
+[1.486s] writing top-level names to ../../build/dev_sys/dev_sys.egg-info/top_level.txt
+[1.487s] reading manifest file '../../build/dev_sys/dev_sys.egg-info/SOURCES.txt'
+[1.488s] writing manifest file '../../build/dev_sys/dev_sys.egg-info/SOURCES.txt'
+[1.489s] running build
+[1.489s] running build_py
+[1.489s] running install
+[1.489s] running install_lib
+[1.491s] running install_data
+[1.492s] error: can't copy 'ros2_control.xacro': doesn't exist or not a regular file
+[1.515s] Invoked command in '/home/gnanasai/MUC-Hardware/muc_ws/src/dev_sys' returned '1': PYTHONPATH=/home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dev_sys build --build-base /home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/build install --record /home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/install.log --single-version-externally-managed install_data

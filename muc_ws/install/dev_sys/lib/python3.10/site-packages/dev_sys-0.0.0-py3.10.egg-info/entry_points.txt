@@ -1,0 +1,5 @@
+[console_scripts]
+odom_publisher = odom_publisher.odom_publisher:main
+publish_pwm_values = publish_pwm_values.publish_pwm_values:main
+subscribe_encoder_values = subscribe_encoder_values.subscribe_encoder_values:main
+

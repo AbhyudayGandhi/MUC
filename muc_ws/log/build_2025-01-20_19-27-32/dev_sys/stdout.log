@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/dev_sys/dev_sys.egg-info/PKG-INFO
+writing dependency_links to ../../build/dev_sys/dev_sys.egg-info/dependency_links.txt
+writing entry points to ../../build/dev_sys/dev_sys.egg-info/entry_points.txt
+writing requirements to ../../build/dev_sys/dev_sys.egg-info/requires.txt
+writing top-level names to ../../build/dev_sys/dev_sys.egg-info/top_level.txt
+reading manifest file '../../build/dev_sys/dev_sys.egg-info/SOURCES.txt'
+writing manifest file '../../build/dev_sys/dev_sys.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying description/robot_core.xacro -> /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/share/dev_sys/description
+running install_egg_info
+removing '/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/python3.10/site-packages/dev_sys-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/dev_sys/dev_sys.egg-info to /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/python3.10/site-packages/dev_sys-0.0.0-py3.10.egg-info
+running install_scripts
+Installing odom_publisher script to /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/dev_sys
+Installing publish_pwm_values script to /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/dev_sys
+Installing subscribe_encoder_values script to /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/dev_sys
+writing list of installed files to '/home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/install.log'

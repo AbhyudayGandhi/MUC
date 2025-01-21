@@ -1,0 +1,279 @@
+[0.141s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.142s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x72d900a4d420>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72d900a4ce20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72d900a4ce20>>)
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.368s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gnanasai/MUC-Hardware/muc_ws'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/dev_sys) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/dev_sys) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/dev_sys) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/dev_sys) by extensions ['colcon_pkg']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/dev_sys) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/dev_sys) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/dev_sys) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/dev_sys) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/dev_sys) by extension 'ros'
+[0.390s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dev_sys' with type 'ros.ament_python' and name 'dev_sys'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_publisher) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_publisher) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_publisher) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_publisher) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_publisher) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_publisher) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_publisher) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_publisher) by extension 'ros'
+[0.391s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odom_publisher' with type 'ros.ament_python' and name 'odom_publisher'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_pwm_values) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_pwm_values) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_pwm_values) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_pwm_values) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_pwm_values) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_pwm_values) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_pwm_values) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_pwm_values) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_pwm_values) by extension 'ros'
+[0.393s] DEBUG:colcon.colcon_core.package_identification:Package 'src/publish_pwm_values' with type 'ros.ament_python' and name 'publish_pwm_values'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscribe_encoder_values) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscribe_encoder_values) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscribe_encoder_values) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscribe_encoder_values) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscribe_encoder_values) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscribe_encoder_values) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscribe_encoder_values) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscribe_encoder_values) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscribe_encoder_values) by extension 'ros'
+[0.394s] DEBUG:colcon.colcon_core.package_identification:Package 'src/subscribe_encoder_values' with type 'ros.ament_python' and name 'subscribe_encoder_values'
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.436s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/gnanasai/MUC-Hardware/muc_ws/install
+[0.438s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 320 installed packages in /opt/ros/humble
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'dev_sys' build argument 'cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'dev_sys' build argument 'cmake_target' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'dev_sys' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'dev_sys' build argument 'cmake_clean_cache' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'dev_sys' build argument 'cmake_clean_first' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'dev_sys' build argument 'cmake_force_configure' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'dev_sys' build argument 'ament_cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'dev_sys' build argument 'catkin_cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'dev_sys' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.493s] DEBUG:colcon.colcon_core.verb:Building package 'dev_sys' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys', 'merge_install': False, 'path': '/home/gnanasai/MUC-Hardware/muc_ws/src/dev_sys', 'symlink_install': False, 'test_result_base': None}
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'odom_publisher' build argument 'cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'odom_publisher' build argument 'cmake_target' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'odom_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'odom_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'odom_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'odom_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'odom_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'odom_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'odom_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.493s] DEBUG:colcon.colcon_core.verb:Building package 'odom_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gnanasai/MUC-Hardware/muc_ws/build/odom_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher', 'merge_install': False, 'path': '/home/gnanasai/MUC-Hardware/muc_ws/src/odom_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'publish_pwm_values' build argument 'cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'publish_pwm_values' build argument 'cmake_target' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'publish_pwm_values' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'publish_pwm_values' build argument 'cmake_clean_cache' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'publish_pwm_values' build argument 'cmake_clean_first' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'publish_pwm_values' build argument 'cmake_force_configure' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'publish_pwm_values' build argument 'ament_cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'publish_pwm_values' build argument 'catkin_cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'publish_pwm_values' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.494s] DEBUG:colcon.colcon_core.verb:Building package 'publish_pwm_values' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gnanasai/MUC-Hardware/muc_ws/build/publish_pwm_values', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values', 'merge_install': False, 'path': '/home/gnanasai/MUC-Hardware/muc_ws/src/publish_pwm_values', 'symlink_install': False, 'test_result_base': None}
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'subscribe_encoder_values' build argument 'cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'subscribe_encoder_values' build argument 'cmake_target' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'subscribe_encoder_values' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'subscribe_encoder_values' build argument 'cmake_clean_cache' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'subscribe_encoder_values' build argument 'cmake_clean_first' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'subscribe_encoder_values' build argument 'cmake_force_configure' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'subscribe_encoder_values' build argument 'ament_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'subscribe_encoder_values' build argument 'catkin_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'subscribe_encoder_values' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.495s] DEBUG:colcon.colcon_core.verb:Building package 'subscribe_encoder_values' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gnanasai/MUC-Hardware/muc_ws/build/subscribe_encoder_values', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values', 'merge_install': False, 'path': '/home/gnanasai/MUC-Hardware/muc_ws/src/subscribe_encoder_values', 'symlink_install': False, 'test_result_base': None}
+[0.495s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.497s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.497s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gnanasai/MUC-Hardware/muc_ws/src/dev_sys' with build type 'ament_python'
+[0.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('dev_sys', 'ament_prefix_path')
+[0.499s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/share/dev_sys/hook/ament_prefix_path.ps1'
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/share/dev_sys/hook/ament_prefix_path.dsv'
+[0.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/share/dev_sys/hook/ament_prefix_path.sh'
+[0.502s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.502s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.507s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gnanasai/MUC-Hardware/muc_ws/src/odom_publisher' with build type 'ament_python'
+[0.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_publisher', 'ament_prefix_path')
+[0.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher/share/odom_publisher/hook/ament_prefix_path.ps1'
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher/share/odom_publisher/hook/ament_prefix_path.dsv'
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher/share/odom_publisher/hook/ament_prefix_path.sh'
+[0.509s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.509s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.513s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gnanasai/MUC-Hardware/muc_ws/src/publish_pwm_values' with build type 'ament_python'
+[0.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('publish_pwm_values', 'ament_prefix_path')
+[0.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values/share/publish_pwm_values/hook/ament_prefix_path.ps1'
+[0.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values/share/publish_pwm_values/hook/ament_prefix_path.dsv'
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values/share/publish_pwm_values/hook/ament_prefix_path.sh'
+[0.515s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.515s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.520s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gnanasai/MUC-Hardware/muc_ws/src/subscribe_encoder_values' with build type 'ament_python'
+[0.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('subscribe_encoder_values', 'ament_prefix_path')
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values/share/subscribe_encoder_values/hook/ament_prefix_path.ps1'
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values/share/subscribe_encoder_values/hook/ament_prefix_path.dsv'
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values/share/subscribe_encoder_values/hook/ament_prefix_path.sh'
+[0.523s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.523s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.881s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gnanasai/MUC-Hardware/muc_ws/src/dev_sys'
+[0.882s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.882s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.236s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'odom_publisher' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.237s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'odom_publisher' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.237s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gnanasai/MUC-Hardware/muc_ws/src/odom_publisher'
+[1.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.581s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gnanasai/MUC-Hardware/muc_ws/src/publish_pwm_values'
+[1.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.581s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.913s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gnanasai/MUC-Hardware/muc_ws/src/subscribe_encoder_values'
+[1.914s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.914s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gnanasai/MUC-Hardware/muc_ws/src/odom_publisher': PYTHONPATH=/home/gnanasai/MUC-Hardware/muc_ws/build/odom_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odom_publisher build --build-base /home/gnanasai/MUC-Hardware/muc_ws/build/odom_publisher/build install --record /home/gnanasai/MUC-Hardware/muc_ws/build/odom_publisher/install.log --single-version-externally-managed
+[2.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gnanasai/MUC-Hardware/muc_ws/src/subscribe_encoder_values': PYTHONPATH=/home/gnanasai/MUC-Hardware/muc_ws/build/subscribe_encoder_values/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/subscribe_encoder_values build --build-base /home/gnanasai/MUC-Hardware/muc_ws/build/subscribe_encoder_values/build install --record /home/gnanasai/MUC-Hardware/muc_ws/build/subscribe_encoder_values/install.log --single-version-externally-managed install_data
+[2.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gnanasai/MUC-Hardware/muc_ws/src/publish_pwm_values': PYTHONPATH=/home/gnanasai/MUC-Hardware/muc_ws/build/publish_pwm_values/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/publish_pwm_values build --build-base /home/gnanasai/MUC-Hardware/muc_ws/build/publish_pwm_values/build install --record /home/gnanasai/MUC-Hardware/muc_ws/build/publish_pwm_values/install.log --single-version-externally-managed install_data
+[2.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gnanasai/MUC-Hardware/muc_ws/src/dev_sys': PYTHONPATH=/home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dev_sys build --build-base /home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/build install --record /home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/install.log --single-version-externally-managed install_data
+[2.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gnanasai/MUC-Hardware/muc_ws/src/subscribe_encoder_values' returned '0': PYTHONPATH=/home/gnanasai/MUC-Hardware/muc_ws/build/subscribe_encoder_values/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/subscribe_encoder_values build --build-base /home/gnanasai/MUC-Hardware/muc_ws/build/subscribe_encoder_values/build install --record /home/gnanasai/MUC-Hardware/muc_ws/build/subscribe_encoder_values/install.log --single-version-externally-managed install_data
+[2.845s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values' for CMake module files
+[2.846s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values' for CMake config files
+[2.847s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values/lib'
+[2.847s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values/bin'
+[2.847s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values/lib/pkgconfig/subscribe_encoder_values.pc'
+[2.848s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages'
+[2.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('subscribe_encoder_values', 'pythonpath')
+[2.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values/share/subscribe_encoder_values/hook/pythonpath.ps1'
+[2.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values/share/subscribe_encoder_values/hook/pythonpath.dsv'
+[2.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values/share/subscribe_encoder_values/hook/pythonpath.sh'
+[2.850s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values/bin'
+[2.850s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(subscribe_encoder_values)
+[2.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values/share/subscribe_encoder_values/package.ps1'
+[2.852s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values/share/subscribe_encoder_values/package.dsv'
+[2.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values/share/subscribe_encoder_values/package.sh'
+[2.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values/share/subscribe_encoder_values/package.bash'
+[2.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values/share/subscribe_encoder_values/package.zsh'
+[2.856s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gnanasai/MUC-Hardware/muc_ws/install/subscribe_encoder_values/share/colcon-core/packages/subscribe_encoder_values)
+[2.859s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values' for CMake module files
+[2.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gnanasai/MUC-Hardware/muc_ws/src/publish_pwm_values' returned '0': PYTHONPATH=/home/gnanasai/MUC-Hardware/muc_ws/build/publish_pwm_values/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/publish_pwm_values build --build-base /home/gnanasai/MUC-Hardware/muc_ws/build/publish_pwm_values/build install --record /home/gnanasai/MUC-Hardware/muc_ws/build/publish_pwm_values/install.log --single-version-externally-managed install_data
+[2.860s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values' for CMake config files
+[2.860s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values/lib'
+[2.860s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values/bin'
+[2.860s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values/lib/pkgconfig/publish_pwm_values.pc'
+[2.861s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values/lib/python3.10/site-packages'
+[2.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('publish_pwm_values', 'pythonpath')
+[2.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values/share/publish_pwm_values/hook/pythonpath.ps1'
+[2.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values/share/publish_pwm_values/hook/pythonpath.dsv'
+[2.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values/share/publish_pwm_values/hook/pythonpath.sh'
+[2.863s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values/bin'
+[2.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(publish_pwm_values)
+[2.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values/share/publish_pwm_values/package.ps1'
+[2.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values/share/publish_pwm_values/package.dsv'
+[2.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values/share/publish_pwm_values/package.sh'
+[2.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values/share/publish_pwm_values/package.bash'
+[2.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values/share/publish_pwm_values/package.zsh'
+[2.866s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gnanasai/MUC-Hardware/muc_ws/install/publish_pwm_values/share/colcon-core/packages/publish_pwm_values)
+[2.868s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher' for CMake module files
+[2.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gnanasai/MUC-Hardware/muc_ws/src/odom_publisher' returned '0': PYTHONPATH=/home/gnanasai/MUC-Hardware/muc_ws/build/odom_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odom_publisher build --build-base /home/gnanasai/MUC-Hardware/muc_ws/build/odom_publisher/build install --record /home/gnanasai/MUC-Hardware/muc_ws/build/odom_publisher/install.log --single-version-externally-managed
+[2.869s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher' for CMake config files
+[2.870s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher/lib'
+[2.870s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher/bin'
+[2.870s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher/lib/pkgconfig/odom_publisher.pc'
+[2.871s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher/lib/python3.10/site-packages'
+[2.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_publisher', 'pythonpath')
+[2.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher/share/odom_publisher/hook/pythonpath.ps1'
+[2.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher/share/odom_publisher/hook/pythonpath.dsv'
+[2.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher/share/odom_publisher/hook/pythonpath.sh'
+[2.874s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher/bin'
+[2.874s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odom_publisher)
+[2.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher/share/odom_publisher/package.ps1'
+[2.875s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher/share/odom_publisher/package.dsv'
+[2.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher/share/odom_publisher/package.sh'
+[2.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher/share/odom_publisher/package.bash'
+[2.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher/share/odom_publisher/package.zsh'
+[2.878s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gnanasai/MUC-Hardware/muc_ws/install/odom_publisher/share/colcon-core/packages/odom_publisher)
+[2.908s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys' for CMake module files
+[2.908s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys' for CMake config files
+[2.909s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib'
+[2.909s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/bin'
+[2.909s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/pkgconfig/dev_sys.pc'
+[2.910s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/python3.10/site-packages'
+[2.910s] Level 1:colcon.colcon_core.shell:create_environment_hook('dev_sys', 'pythonpath')
+[2.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/share/dev_sys/hook/pythonpath.ps1'
+[2.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/share/dev_sys/hook/pythonpath.dsv'
+[2.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gnanasai/MUC-Hardware/muc_ws/src/dev_sys' returned '0': PYTHONPATH=/home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dev_sys build --build-base /home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/build install --record /home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/install.log --single-version-externally-managed install_data
+[2.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/share/dev_sys/hook/pythonpath.sh'
+[2.913s] Level 1:colcon.colcon_core.environment:checking '/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/bin'
+[2.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dev_sys)
+[2.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/share/dev_sys/package.ps1'
+[2.914s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/share/dev_sys/package.dsv'
+[2.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/share/dev_sys/package.sh'
+[2.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/share/dev_sys/package.bash'
+[2.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/share/dev_sys/package.zsh'
+[2.916s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/share/colcon-core/packages/dev_sys)
+[2.916s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.916s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.916s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.916s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.924s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.924s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.924s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.941s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.941s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gnanasai/MUC-Hardware/muc_ws/install/local_setup.ps1'
+[2.943s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gnanasai/MUC-Hardware/muc_ws/install/_local_setup_util_ps1.py'
+[2.944s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gnanasai/MUC-Hardware/muc_ws/install/setup.ps1'
+[2.946s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gnanasai/MUC-Hardware/muc_ws/install/local_setup.sh'
+[2.947s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gnanasai/MUC-Hardware/muc_ws/install/_local_setup_util_sh.py'
+[2.948s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gnanasai/MUC-Hardware/muc_ws/install/setup.sh'
+[2.949s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gnanasai/MUC-Hardware/muc_ws/install/local_setup.bash'
+[2.949s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gnanasai/MUC-Hardware/muc_ws/install/setup.bash'
+[2.951s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gnanasai/MUC-Hardware/muc_ws/install/local_setup.zsh'
+[2.951s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gnanasai/MUC-Hardware/muc_ws/install/setup.zsh'

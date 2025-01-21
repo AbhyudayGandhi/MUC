@@ -1,0 +1,34 @@
+running egg_info
+creating ../../build/dev_sys/dev_sys.egg-info
+writing ../../build/dev_sys/dev_sys.egg-info/PKG-INFO
+writing dependency_links to ../../build/dev_sys/dev_sys.egg-info/dependency_links.txt
+writing entry points to ../../build/dev_sys/dev_sys.egg-info/entry_points.txt
+writing requirements to ../../build/dev_sys/dev_sys.egg-info/requires.txt
+writing top-level names to ../../build/dev_sys/dev_sys.egg-info/top_level.txt
+writing manifest file '../../build/dev_sys/dev_sys.egg-info/SOURCES.txt'
+reading manifest file '../../build/dev_sys/dev_sys.egg-info/SOURCES.txt'
+writing manifest file '../../build/dev_sys/dev_sys.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/build
+creating /home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/build/lib
+creating /home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/build/lib/dev_sys
+copying dev_sys/__init__.py -> /home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/build/lib/dev_sys
+running install
+running install_lib
+creating /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/python3.10/site-packages/dev_sys
+copying /home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/build/lib/dev_sys/__init__.py -> /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/python3.10/site-packages/dev_sys
+byte-compiling /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/python3.10/site-packages/dev_sys/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/share/ament_index
+creating /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/share/ament_index/resource_index
+creating /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/share/ament_index/resource_index/packages
+copying resource/dev_sys -> /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/share/ament_index/resource_index/packages
+copying package.xml -> /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/share/dev_sys
+running install_egg_info
+Copying ../../build/dev_sys/dev_sys.egg-info to /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/python3.10/site-packages/dev_sys-0.0.0-py3.10.egg-info
+running install_scripts
+Installing odom_publisher script to /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/dev_sys
+Installing publish_pwm_values script to /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/dev_sys
+Installing subscribe_encoder_values script to /home/gnanasai/MUC-Hardware/muc_ws/install/dev_sys/lib/dev_sys
+writing list of installed files to '/home/gnanasai/MUC-Hardware/muc_ws/build/dev_sys/install.log'

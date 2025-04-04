@@ -37,10 +37,10 @@ class OdomPublisher(Node):
         self.imu_orientation = Quaternion()
 
         # Subscriptions for encoder values
-        self.create_subscription(Int32, 'encoder_values_1', self.encoder_callback_1, 10)
-        self.create_subscription(Int32, 'encoder_values_2', self.encoder_callback_2, 10)
-        self.create_subscription(Int32, 'encoder_values_3', self.encoder_callback_3, 10)
-        self.create_subscription(Int32, 'encoder_values_4', self.encoder_callback_4, 10)
+        self.create_subscription(Int32, 'encoder_motor3', self.encoder_callback_1, 10)
+        self.create_subscription(Int32, 'encoder_motor1', self.encoder_callback_2, 10)
+        self.create_subscription(Int32, 'encoder_motor4', self.encoder_callback_3, 10)
+        self.create_subscription(Int32, 'encoder_motor2', self.encoder_callback_4, 10)
 
         # Subscription for IMU data
         self.create_subscription(Imu, 'imu/orientation', self.imu_callback, 10)
@@ -135,4 +135,3 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
-
